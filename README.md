@@ -1,6 +1,7 @@
 There were 2 aims for my first NLP project.
 1) JD insights for hiring managers on how to draft their JDs. 
 2) Resume writing tip for job applicants.
+
 The first area is a review of the Data roles in US using a kaggle data set https://www.kaggle.com/sl6149/data-scientist-job-market-in-the-us. 
 EDA shows the major employers to be investment banks, consulting companies, specialised recruiting agencies and the big 4 Tech co.
 NLP Topic Modelling with LSA and NMF using CountVectorizer and also TF-IDF was applied to look at the topics within the JDs after filtering for "Data Scien" in the job titles.
