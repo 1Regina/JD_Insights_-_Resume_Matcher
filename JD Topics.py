@@ -36,6 +36,8 @@ wordcloud = WordCloud(background_color='white',colormap = "viridis", max_font_si
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
+plt.savefig('titles.png',format = 'png', dpi=1000)
+plt.savefig('titles.svg',format = 'svg', dpi=1000)
 plt.show()
 #%%
 # Filter for positions containing "Data Scientist"
@@ -76,6 +78,8 @@ wordcloud = WordCloud(background_color='white',colormap = "inferno", max_font_si
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
+plt.savefig('companies.png',format = 'png', dpi=1000)
+plt.savefig('companies.svg',format = 'svg', dpi=1000)
 plt.show()
 
 #Wordcloud of location
@@ -85,7 +89,8 @@ wordcloud = WordCloud(background_color='white',colormap = "magma", max_font_size
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-
+plt.savefig('location.png',format = 'png', dpi=1000)
+plt.savefig('location.svg',format = 'svg', dpi=1000)
 plt.show()
 
 #%%
